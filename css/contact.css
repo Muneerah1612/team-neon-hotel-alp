@@ -2,9 +2,10 @@
 
 body {
    padding: 0;
-   margin: 0;
+   margin: 0 auto;
    box-sizing: border-box;
    font-family: Poppins, Arial, Helvetica, sans-serif;
+  
 }
 
 .navbar {
@@ -29,12 +30,14 @@ body {
    width: 70%;
    display: flex;
    align-items: center;
-   justify-content: space-evenly;
+   justify-content:space-evenly ;
 }
 
 .nav-link {
    color: black;
    text-decoration: none;
+   flex:auto;
+   
 }
 
 .nav-link:hover {
@@ -44,8 +47,8 @@ body {
 #book-now {
    color: white;
    border: thin solid #ff8800;
-   ;
-   padding: 0.5rem 1rem;
+   
+   padding: 2px;
    border-radius: 1.2rem;
    background-color: #ff8800;
    ;
